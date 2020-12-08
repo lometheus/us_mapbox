@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "36059", "name": "Nassau", "date": "2020\/3\/9", "county": "Nassau", "state": "New York", "fips": 36059.0, "cases": 8544.0, "deaths": 63.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.49716, 40.921752 ], [ -73.42596, 40.609566 ], [ -73.754577, 40.587659 ], [ -73.76553, 40.801259 ], [ -73.49716, 40.921752 ] ] ] } }
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "36119", "name": "Westchester", "date": "2020\/3\/9", "county": "Westchester", "state": "New York", "fips": 36119.0, "cases": 9967.0, "deaths": 25.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.661469, 41.35443 ], [ -73.546453, 41.365384 ], [ -73.655992, 40.987475 ], [ -73.781961, 40.883413 ], [ -73.918885, 40.916275 ], [ -73.8915, 40.998429 ], [ -73.984608, 41.321569 ], [ -73.661469, 41.35443 ] ] ] } }
+]
+}

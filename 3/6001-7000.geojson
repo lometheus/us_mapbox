@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "36103", "name": "Suffolk", "date": "2020\/3\/9", "county": "Suffolk", "state": "New York", "fips": 36103.0, "cases": 6713.0, "deaths": 53.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.42596, 40.609566 ], [ -73.49716, 40.921752 ], [ -72.100541, 40.992952 ], [ -73.42596, 40.609566 ] ] ] } }
+]
+}
