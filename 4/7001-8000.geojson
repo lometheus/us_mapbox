@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type": "Feature", "properties": { "id": "09009", "name": "New Haven", "date": "2020\/4\/9", "county": "New Haven", "state": "Connecticut", "fips": 9009.0, "cases": 7536.0, "deaths": 512.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.949466, 41.644708 ], [ -72.752296, 41.578985 ], [ -72.538696, 41.255845 ], [ -73.108298, 41.168214 ], [ -73.310944, 41.469446 ], [ -72.982328, 41.639231 ], [ -72.949466, 41.644708 ] ] ] } },
-{ "type": "Feature", "properties": { "id": "26125", "name": "Oakland", "date": "2020\/4\/9", "county": "Oakland", "state": "Michigan", "fips": 26125.0, "cases": 7267.0, "deaths": 696.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.098237, 42.887974 ], [ -83.081806, 42.449818 ], [ -83.552823, 42.433388 ], [ -83.662362, 42.433388 ], [ -83.684269, 42.783912 ], [ -83.454238, 42.882497 ], [ -83.098237, 42.887974 ] ] ] } }
+{ "type": "Feature", "properties": { "id": "09009", "name": "New Haven", "date": "2020\/4\/9", "county": "New Haven", "state": "Connecticut", "fips": 9009.0, "cases": 7536 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.949466, 41.644708 ], [ -72.752296, 41.578985 ], [ -72.538696, 41.255845 ], [ -73.108298, 41.168214 ], [ -73.310944, 41.469446 ], [ -72.982328, 41.639231 ], [ -72.949466, 41.644708 ] ] ] } },
+{ "type": "Feature", "properties": { "id": "26125", "name": "Oakland", "date": "2020\/4\/9", "county": "Oakland", "state": "Michigan", "fips": 26125.0, "cases": 7267 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.098237, 42.887974 ], [ -83.081806, 42.449818 ], [ -83.552823, 42.433388 ], [ -83.662362, 42.433388 ], [ -83.684269, 42.783912 ], [ -83.454238, 42.882497 ], [ -83.098237, 42.887974 ] ] ] } }
 ]
 }

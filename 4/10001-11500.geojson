@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type": "Feature", "properties": { "id": "45039", "name": "Fairfield", "date": "2020\/4\/9", "county": "Fairfield", "state": "South Carolina", "fips": 45039.0, "cases": 11294.0, "deaths": 810.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.416816, 34.573978 ], [ -80.880076, 34.541117 ], [ -80.880076, 34.458962 ], [ -80.825307, 34.26727 ], [ -80.863645, 34.261793 ], [ -81.318231, 34.239885 ], [ -81.422293, 34.491824 ], [ -81.422293, 34.573978 ], [ -81.416816, 34.573978 ] ] ] } }
+{ "type": "Feature", "properties": { "id": "09001", "name": "Fairfield", "date": "2020\/4\/9", "county": "Fairfield", "state": "Connecticut", "fips": 9001.0, "cases": 11294 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.519068, 41.666616 ], [ -73.310944, 41.469446 ], [ -73.108298, 41.168214 ], [ -73.655992, 40.987475 ], [ -73.546453, 41.365384 ], [ -73.530022, 41.529692 ], [ -73.519068, 41.666616 ] ] ] } }
 ]
 }
