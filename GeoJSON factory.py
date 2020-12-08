@@ -83,11 +83,12 @@ df2["bins"] = df2["cases"].apply(
 
 
 
-Mounths = range(1,12)
+Mounths = range(1,13)
 
 bins = df2['bins'].unique()
 for mon in Mounths:
-    df_single_mounth = df2[(df2.mounth == mon)]
+    df_single_mounth = df2[(df2.mounth <= mon)]
+
     merged = dfg.merge(df_single_mounth, right_on='FIPS', left_on='id' )
     for bin in bins:
         print(mon,bin)
