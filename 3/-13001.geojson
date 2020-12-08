@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "36061", "name": "New York", "date": "2020\/3\/9", "county": "New York City", "state": "New York", "fips": 36061.0, "cases": 43518.0, "deaths": 1475.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.924362, 40.877937 ], [ -73.913408, 40.795782 ], [ -73.9627, 40.735536 ], [ -74.022947, 40.680767 ], [ -74.022947, 40.708151 ], [ -73.984608, 40.795782 ], [ -73.935316, 40.883413 ], [ -73.924362, 40.877937 ] ] ] } }
+]
+}

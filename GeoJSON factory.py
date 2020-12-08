@@ -11,10 +11,10 @@ mapbox_access_token = "pk.eyJ1IjoiamFja3AiLCJhIjoidGpzN0lXVSJ9.7YK6eRwUNFwd3ODZf
 #
 # df['"County Code"'] = df['"County Code"'].apply(lambda x: x.strip('"'))
 
-dfg = gpd.read_file('us-counties.json')
+dfg = gpd.read_file('us-counties.json',encoding="utf-8")
 dfg['id'] = dfg['id'].apply(lambda x: x.zfill(5))
 
-df2 = pd.read_csv('us_counties_covid19_daily.csv')
+df2 = pd.read_csv('us_counties_covid19_daily.csv',encoding="utf-8")
 
 df2=df2.dropna()
 df2['FIPS'] = df2['fips'].apply(lambda x: str(int(x)).zfill(5))
@@ -40,7 +40,7 @@ BINS = [
     "9001-10000",
     "10001-11500",
     "11500-13000",
-    ">=13001",
+    "-13001",
 ]
 
 def map_bins(x):
@@ -75,7 +75,7 @@ def map_bins(x):
     elif x in range(11500,13000):
         return "11500-13000"
     elif x >=13001:
-        return ">=13001"
+        return "-13001"
 
 df2["bins"] = df2["cases"].apply(
     lambda x: map_bins(x)
@@ -93,9 +93,12 @@ for mon in Mounths:
     for bin in bins:
         print(mon,bin)
         geo_layer = merged[(merged['bins'] == bin)].drop(['bins','mounth','FIPS'],axis = 1)
-        try:
-          geo_layer.to_file("{0}/{1}.geojson".format(mon, bin), driver='GeoJSON')
-        except :
-            print('err')
+        # try:
+        if geo_layer.empty:
+            continue
+        geo_layer.to_file("{0}/{1}.geojson".format(mon, bin), driver='GeoJSON', encoding="utf-8")
+        # except Exception as e:
+        #     print('err')
+        #     print(e)
 
 
